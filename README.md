@@ -1,8 +1,6 @@
-#　使い方
+# 使い方
 ```tarminal
 pip install -r requirements.txt
-
-cd amazon_crwaler
 
 scrapy crawl AmazonProduct
 ```
