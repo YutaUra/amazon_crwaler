@@ -20,8 +20,8 @@ DEFAULT_REQUEST_HEADERS = {
 
 # See https://docs.scrapy.org/en/latest/topics/downloader-middleware.html
 DOWNLOADER_MIDDLEWARES = {
-    'amazon_crwaler.middlewares.ProxyMiddleware': 100,
-    'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware': 110,
+    # 'amazon_crwaler.middlewares.ProxyMiddleware': 100,
+    # 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware': 110,
 
     'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware': None,
     'amazon_crwaler.middlewares.MyRandomUserAgentMiddleware': 400,

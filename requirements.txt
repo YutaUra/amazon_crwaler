@@ -1,0 +1,6 @@
+requests
+stem
+scrapy
+scrapy-fake-useragent
+pytz
+psycopg2
